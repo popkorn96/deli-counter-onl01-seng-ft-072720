@@ -24,7 +24,7 @@ def now_serving(katz_deli)
     elsif katz_deli.length >= 1 
     puts "Currently serving"
     katz_deli.shift
-    string += " #{katz_deli[1]}"
+    katz_deli += " #{katz_deli[1]}"
   end
 end
     
