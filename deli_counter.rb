@@ -24,7 +24,7 @@ def now_serving(katz_deli)
     elsif katz_deli.length >= 1 
     string = "We are now serving"
     katz_deli.shift("#{katz_deli[1]}")
-    string += "#{katz_deli[1]}"
+    string += " #{katz_deli[1]}"
   end
 end
     
