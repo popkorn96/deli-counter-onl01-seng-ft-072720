@@ -23,7 +23,7 @@ def now_serving(katz_deli)
     puts "There is nobody waiting to be served!"
     elsif katz_deli.length >= 1 
     string = "We are now serving"
-    katz_deli.shift("#{katz_deli[0]}")
+    katz_deli.shift("#{katz_deli[1]}")
     string += "#{katz_deli[1]}"
   end
 end
