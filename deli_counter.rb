@@ -25,7 +25,6 @@ def now_serving(katz_deli)
     katz_deli += " #{katz_deli[0]}"
     else katz_deli.empty?
     puts "There is nobody waiting to be served!"
-
   end
 end
     
